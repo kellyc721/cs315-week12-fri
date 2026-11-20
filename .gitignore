@@ -1,0 +1,55 @@
+# --- Virtual Environments ---
+.kdramaTM
+.venv/
+venv/
+env/
+ENV/
+
+# --- Data & Saved Embeddings ---
+data/
+embeddings/
+*.parquet
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.csv
+
+# --- Secrets & Local Config (e.g., HF_TOKEN, Streamlit secrets) ---
+.env
+.env.*
+.streamlit/secrets.toml
+
+# --- Local Model Caches ---
+.cache/
+huggingface/
+models/
+
+# --- Python Bytecode & Build Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Jupyter & Testing ---
+.ipynb_checkpoints/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE & OS Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
